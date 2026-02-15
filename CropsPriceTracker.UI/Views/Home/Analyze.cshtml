@@ -1,0 +1,24 @@
+﻿<h3>📊 Price Analysis</h3>
+
+<select id="cropName" class="form-control mb-2" placeholder="Crop Name">
+    <option value="">-- Select Crop --</option>
+    <option value="Tomato">Tomato</option>
+    <option value="Onion">Onion</option>
+    <option value="Potato">Potato</option>
+    <option value="Carrot">Carrot</option>
+    <option value="Cabbage">Cabbage</option>
+</select>
+<select id="marketName" class="form-control mb-2" placeholder="Market Name">
+    <option value="">-- Select Market --</option>
+    <option value="Hospet">Hospet</option>
+    <option value="Ramanagara">Ramanagara</option>
+    <option value="Bangarpet">Bangarpet</option>
+    <option value="Sirsi">Sirsi</option>
+    <option value="Mandya">Chikkamagalore</option>
+</select>
+
+<button class="btn btn-success" onclick="analyze()">Analyze</button>
+
+<div id="analysisResult" class="mt-4"></div>
+
+<script src="~/js/api.js"></script>

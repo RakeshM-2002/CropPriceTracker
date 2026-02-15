@@ -1,0 +1,59 @@
+﻿<div class="container mt-5">
+    <h3 class="text-center mb-4">📊 Crop Dashboard</h3>
+
+    <!-- Date Range Card -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="row align-items-end g-3">
+
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">Start Month</label>
+                    <input type="month" id="startDate" class="form-control" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">End Month</label>
+                    <input type="month" id="endDate" class="form-control" />
+                </div>
+
+                <div class="col-md-4">
+                    <button class="btn btn-primary w-100" onclick="SetData()">
+                        Apply
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="row g-3">
+        <div class="col-md-3">
+            <button class="btn btn-outline-primary w-100"
+                    onclick="location.href='/Home/Analyze'">
+                Analyze
+            </button>
+        </div>
+
+        <div class="col-md-3">
+            <button class="btn btn-outline-success w-100"
+                    onclick="location.href='/Home/History'">
+                History
+            </button>
+        </div>
+
+        <div class="col-md-3">
+            <button class="btn btn-outline-warning w-100"
+                    onclick="location.href='/Home/AddAlert'">
+                Add Alert
+            </button>
+        </div>
+
+        <div class="col-md-3">
+            <button class="btn btn-outline-danger w-100"
+                    onclick="location.href='/Home/Alerts'">
+                Check Alerts
+            </button>
+        </div>
+    </div>
+</div>

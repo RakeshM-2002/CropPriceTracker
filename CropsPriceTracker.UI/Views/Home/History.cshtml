@@ -1,0 +1,31 @@
+﻿<div class="container mt-5">
+    <h3>📜 Crop Price History</h3>
+
+    <select id="cropName" class="form-control mb-2">
+        <option value="">-- Select Crop --</option>
+        <option value="Tomato">Tomato</option>
+        <option value="Onion">Onion</option>
+        <option value="Potato">Potato</option>
+        <option value="Carrot">Carrot</option>
+        <option value="Cabbage">Cabbage</option>
+    </select>
+        
+    <button class="btn btn-primary" onclick="history()">Get History</button>
+
+    <table class="table table-bordered table-striped bg-white mt-4">
+        <thead>
+            <tr>
+                <th>Market</th>
+                <th>Modal Price</th>
+                <th>Min Price</th>
+                <th>Max Price</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody id="historyTable"></tbody>
+    </table>
+
+</div>
+
+<script src="~/js/site.js"></script>
+

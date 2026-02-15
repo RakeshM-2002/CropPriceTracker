@@ -1,0 +1,36 @@
+.login-card {
+    width: 350px;
+    border-radius: 12px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url("/crop2.jpg") no-repeat center center fixed;
+    background-size: cover;
+} 
+
+    /* Optional overlay to improve readability */
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25); /* dark overlay */
+        z-index: -1;
+    }
+
+/* Card styling for contrast */
+.card {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 12px;
+}
+
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+    color: #fff;
+    border-width: 2px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+
