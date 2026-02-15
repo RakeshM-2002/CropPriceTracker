@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropsPriceTracker.API", "CropsPriceTracker.API.csproj", "{39553F29-465C-4C34-AB64-5A5C78B4B5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CropsPriceTracker.UI", "..\CropsPriceTracker.UI\CropsPriceTracker.UI.csproj", "{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39553F29-465C-4C34-AB64-5A5C78B4B5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39553F29-465C-4C34-AB64-5A5C78B4B5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39553F29-465C-4C34-AB64-5A5C78B4B5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39553F29-465C-4C34-AB64-5A5C78B4B5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24CF66CC-211D-49EC-BD71-213E49EB72D3}
+	EndGlobalSection
+EndGlobal

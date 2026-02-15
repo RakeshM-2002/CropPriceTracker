@@ -1,0 +1,824 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repo\\Crops Price Tracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\userdata\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\userdata\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\alerts\\alerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\alerts\\alerts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\userdata\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\userdata\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\analyzerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\analyzerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\userdata\\generateotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\userdata\\generateotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\services\\cropservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:services\\cropservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\userdata\\otpverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\userdata\\otpverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\services\\alertservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:services\\alertservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\addalert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\alerts\\alertcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\alerts\\alertcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\analyze.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\controllers\\cropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:controllers\\cropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\cropprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\cropprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\crophistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\crophistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\priceanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\priceanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\historyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\historyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\crop\\cropanalysishistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\crop\\cropanalysishistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\models\\alerts\\alertresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:models\\alerts\\alertresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\settings\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:settings\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\settings\\daterangesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:settings\\daterangesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\infrastructure\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:infrastructure\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\cropspricetracker.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\crops price tracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:crops price tracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\cropspricetracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:cropspricetracker.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|d:\\repo\\crops price tracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39553F29-465C-4C34-AB64-5A5C78B4B5FA}|CropsPriceTracker.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{88966FB0-3520-4E5F-BBA0-B16144D7CFC8}|..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj|d:\\repo\\cropspricetracker.ui\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:41:09.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnalyzeRequest.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\AnalyzeRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\AnalyzeRequest.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\AnalyzeRequest.cs",
+              "RelativeToolTip": "Models\\Crop\\AnalyzeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:00:55.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlertController.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Controllers\\AlertController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlertController.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Controllers\\AlertController.cs",
+              "RelativeToolTip": "Controllers\\AlertController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:51:04.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyOtpRequest.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\VerifyOtpRequest.cs",
+              "RelativeDocumentMoniker": "Models\\UserData\\VerifyOtpRequest.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\VerifyOtpRequest.cs",
+              "RelativeToolTip": "Models\\UserData\\VerifyOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T11:26:33.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\User.cs",
+              "RelativeDocumentMoniker": "Models\\UserData\\User.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\User.cs*",
+              "RelativeToolTip": "Models\\UserData\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:22:46.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Services\\AuthService.cs*",
+              "RelativeToolTip": "Services\\AuthService.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAIA3wC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:33:28.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alerts.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\Alerts.cs",
+              "RelativeDocumentMoniker": "Models\\Alerts\\Alerts.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\Alerts.cs",
+              "RelativeToolTip": "Models\\Alerts\\Alerts.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:32:55.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenerateOtpRequest.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\GenerateOtpRequest.cs",
+              "RelativeDocumentMoniker": "Models\\UserData\\GenerateOtpRequest.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\GenerateOtpRequest.cs",
+              "RelativeToolTip": "Models\\UserData\\GenerateOtpRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T11:25:54.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-02T07:06:01.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CropService.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Services\\CropService.cs",
+              "RelativeDocumentMoniker": "Services\\CropService.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Services\\CropService.cs",
+              "RelativeToolTip": "Services\\CropService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAtwHwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:34:43.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OtpVerification.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\OtpVerification.cs",
+              "RelativeDocumentMoniker": "Models\\UserData\\OtpVerification.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\UserData\\OtpVerification.cs",
+              "RelativeToolTip": "Models\\UserData\\OtpVerification.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:31:33.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlertServices.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Services\\AlertServices.cs",
+              "RelativeDocumentMoniker": "Services\\AlertServices.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Services\\AlertServices.cs",
+              "RelativeToolTip": "Services\\AlertServices.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:35:17.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlertCreateDto.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\AlertCreateDto.cs",
+              "RelativeDocumentMoniker": "Models\\Alerts\\AlertCreateDto.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\AlertCreateDto.cs",
+              "RelativeToolTip": "Models\\Alerts\\AlertCreateDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:02:12.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "jquery.validate.unobtrusive.js",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-13T07:13:01.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T07:05:08.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddAlert.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\AddAlert.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\AddAlert.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\AddAlert.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\AddAlert.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:14:30.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Analyze.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Analyze.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\Analyze.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Analyze.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\Analyze.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:11:01.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Alerts.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Alerts.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\Alerts.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Alerts.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\Alerts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:15:05.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\History.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\History.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\History.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:13:25.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T07:06:41.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T18:14:47.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CropController.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Controllers\\CropController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CropController.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Controllers\\CropController.cs",
+              "RelativeToolTip": "Controllers\\CropController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:50:33.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CropPrice.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropPrice.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\CropPrice.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropPrice.cs",
+              "RelativeToolTip": "Models\\Crop\\CropPrice.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:32:29.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CropHistoryDto.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropHistoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\CropHistoryDto.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropHistoryDto.cs",
+              "RelativeToolTip": "Models\\Crop\\CropHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:41:20.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PriceAnalysisResult.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\PriceAnalysisResult.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\PriceAnalysisResult.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\PriceAnalysisResult.cs",
+              "RelativeToolTip": "Models\\Crop\\PriceAnalysisResult.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA4wBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:45:52.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HistoryRequest.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\HistoryRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\HistoryRequest.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\HistoryRequest.cs",
+              "RelativeToolTip": "Models\\Crop\\HistoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:01:35.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CropAnalysisHistoryDto.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropAnalysisHistoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\Crop\\CropAnalysisHistoryDto.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Crop\\CropAnalysisHistoryDto.cs",
+              "RelativeToolTip": "Models\\Crop\\CropAnalysisHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T10:46:46.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AlertResponseDto.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\AlertResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\Alerts\\AlertResponseDto.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Models\\Alerts\\AlertResponseDto.cs",
+              "RelativeToolTip": "Models\\Alerts\\AlertResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T17:51:39.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Settings\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "Settings\\MongoSettings.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Settings\\MongoSettings.cs",
+              "RelativeToolTip": "Settings\\MongoSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:18:02.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DateRangeSettings.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Settings\\DateRangeSettings.cs",
+              "RelativeDocumentMoniker": "Settings\\DateRangeSettings.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Settings\\DateRangeSettings.cs",
+              "RelativeToolTip": "Settings\\DateRangeSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:39:51.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-03T09:57:02.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-02T07:06:29.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T05:42:14.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T05:38:36.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Program.cs",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Program.cs",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T12:32:05.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:10:15.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\appsettings.json",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\appsettings.json",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T09:35:59.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-06T13:27:08.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MongoDBService.cs",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Infrastructure\\MongoDBService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MongoDBService.cs",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Infrastructure\\MongoDBService.cs",
+              "RelativeToolTip": "Infrastructure\\MongoDBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T06:20:28.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T07:04:07.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CropsPriceTracker.UI.csproj",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-06T13:21:23.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Crops Price Tracker.http",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Crops Price Tracker.http",
+              "RelativeDocumentMoniker": "Crops Price Tracker.http",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Crops Price Tracker.http",
+              "RelativeToolTip": "Crops Price Tracker.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-02T07:59:08.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CropsPriceTracker.API.csproj",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\CropsPriceTracker.API.csproj",
+              "RelativeDocumentMoniker": "CropsPriceTracker.API.csproj",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\CropsPriceTracker.API.csproj",
+              "RelativeToolTip": "CropsPriceTracker.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-02T05:42:02.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T18:14:51.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T18:16:11.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T11:10:17.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T18:18:32.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\repo\\Crops Price Tracker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\repo\\Crops Price Tracker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T12:25:05.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T12:31:11.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\repo\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "..\\CropsPriceTracker.UI\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-02T07:04:54.84Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

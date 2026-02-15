@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CropsPriceTracker.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\CropsPriceTracker.UI\\CropsPriceTracker.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
