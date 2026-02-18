@@ -1,4 +1,8 @@
-﻿const API_BASE = "https://localhost:5001/api";
+﻿console.log("site.js loaded");
+
+
+const API_BASE = "https://localhost:5001/api";
+
 
 function getSelectedDates() {
     const startDate = localStorage.getItem("startDate");
@@ -234,3 +238,62 @@ function logout() {
     localStorage.removeItem("mobile");
     window.location.href = "/Home/Login";
 }
+
+
+async function loadCropsNames() {
+    try {
+        const dates = getSelectedDates();
+
+        const cropSelect = document.getElementById("cropName");
+        cropSelect.disabled = true;
+        cropSelect.innerHTML = "<option>Loading...</option>";
+
+        const response = await fetch(
+            `${API_BASE}/crop/cropName?startDate=${dates.startDate}&endDate=${dates.endDate}`
+        );
+
+        const crops = await response.json();
+
+        let options = "<option value=''>-- Select Crop --</option>";
+
+        for (let i = 0; i < crops.length; i++) {
+            options += `<option value="${crops[i]}">${crops[i]}</option>`;
+        }
+
+        cropSelect.innerHTML = options;
+        cropSelect.disabled = false;
+
+    } catch (error) {
+        console.error("Error loading crops:", error);
+    }
+}
+
+
+async function loadMarketNames() {
+    try {
+        const dates = getSelectedDates();
+
+        const marketSelect = document.getElementById("marketName");
+        marketSelect.disabled = true;
+        marketSelect.innerHTML = "<option>Loading...</option>";
+
+        const response = await fetch(
+            `${API_BASE}/crop/marketName?startDate=${dates.startDate}&endDate=${dates.endDate}`
+        );
+
+        const markets = await response.json();
+
+        let options = "<option value=''>-- Select Market --</option>";
+
+        for (let i = 0; i < markets.length; i++) {
+            options += `<option value="${markets[i]}">${markets[i]}</option>`;
+        }
+
+        marketSelect.innerHTML = options;
+        marketSelect.disabled = false;
+
+    } catch (error) {
+        console.error("Error loading markets:", error);
+    }
+}
+

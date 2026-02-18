@@ -1,6 +1,0 @@
-@Crops_Price_Tracker_HostAddress = http://localhost:5167
-
-GET {{Crops_Price_Tracker_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

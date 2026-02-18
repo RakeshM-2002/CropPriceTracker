@@ -3,11 +3,6 @@
 
     <select id="cropName" class="form-control mb-2">
         <option value="">-- Select Crop --</option>
-        <option value="Tomato">Tomato</option>
-        <option value="Onion">Onion</option>
-        <option value="Potato">Potato</option>
-        <option value="Carrot">Carrot</option>
-        <option value="Cabbage">Cabbage</option>
     </select>
         
     <button class="btn btn-primary" onclick="history()">Get History</button>
@@ -27,5 +22,12 @@
 
 </div>
 
-<script src="~/js/site.js"></script>
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            loadCropsNames();
+            loadMarketNames();
+        });
+    </script>
+}
 
