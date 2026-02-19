@@ -9,39 +9,66 @@ namespace Crops_Price_Tracker.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AuthService _service;
+        private readonly ILogger<AuthController> _logger;
 
-        public AuthController(AuthService service)
+
+        public AuthController(AuthService service, ILogger<AuthController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         [HttpPost("generate-otp")]
         public async Task<IActionResult> Generate([FromBody] GenerateOtpRequest request)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+           
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
 
-            await _service.GenerateOtp(request.Mobile);
-            return Ok("OTP Sent");
+            try { 
+                await _service.GenerateOtp(request.Mobile);
+                return Ok("OTP Sent");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex,
+                    "Generate OTP failed for mobile {Mobile}",
+                    request.Mobile);
+
+                return StatusCode(500,
+                    "Internal server error. Please try again.");
+            }
         }
 
         [HttpPost("verify-otp")]
         public async Task<IActionResult> Verify([FromBody] VerifyOtpRequest request)
         {
-            var user = await _service.VerifyOtp(request.Mobile, request.Otp).ConfigureAwait(false);
 
-            if (user == null)
-                return BadRequest("Invalid or Expired OTP");
-
-            //var token = _service.GenerateJwt(user);
-
-            return Ok(new
+            try
             {
-                userId = user.UserId,
-                mobile = user.Mobile,
-                //token = token
-            });
+                var user = await _service.VerifyOtp(request.Mobile, request.Otp).ConfigureAwait(false);
+
+                if (user == null)
+                    return BadRequest("Invalid or Expired OTP");
+
+                //var token = _service.GenerateJwt(user);
+
+                return Ok(new
+                {
+                    userId = user.UserId,
+                    mobile = user.Mobile,
+                    //token = token
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex,
+                    "OTP verification failed for mobile {Mobile}",
+                    request.Mobile);
+                return StatusCode(500,
+                    "Internal server error. Please try again.");
+            }
         }
 
-    }
-}
+        }
+    } 

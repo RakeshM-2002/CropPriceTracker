@@ -11,6 +11,9 @@ function getSelectedDates() {
     if (!startDate || !endDate) {
         alert("Please select date range on dashboard");
         return null;
+    } else if (new Date(startDate) > new Date(endDate)) {
+        alert("Start date cannot be after end date");
+        return null;
     }
 
     return { startDate, endDate };
@@ -28,7 +31,10 @@ async function generateOtp() {
         body: JSON.stringify({ mobile })
     });
 
-    document.getElementById("message").innerText = res.ok ? "OTP sent" : "Failed to send OTP enter valid Number";
+    if (!res.ok) {
+        const error = await res.text();
+        alert(error);
+    }
 }
 
 /* ========= OTP ========= */
@@ -58,7 +64,10 @@ async function verifyOtp() {
 
         window.location.href = "/Home/Dashboard";
     } else {
-        document.getElementById("message").innerText = "Invalid or expired OTP";
+        if (!res.ok) {
+            const error = await res.text();
+            alert(error);
+        }
     }
 }
 
@@ -103,6 +112,12 @@ async function analyze() {
         `${API_BASE}/crop/analyze?cropName=${cropName}&marketName=${marketName}&startDate=${dates.startDate}&endDate=${dates.endDate}`
     );
 
+    if (!res.ok) {
+        const error = await res.text();
+        alert(error);
+        return;
+    }
+
     const data = await res.json();
 
     document.getElementById("analysisResult").innerHTML = `
@@ -135,6 +150,12 @@ async function history() {
     const res = await fetch(
         `${API_BASE}/crop/history?cropName=${cropName}&startDate=${dates.startDate}&endDate=${dates.endDate}`
     );
+
+    if (!res.ok) {
+        const error = await res.text();
+        alert(error);
+        return;
+    }
     const data = await res.json();
 
     const tbody = document.getElementById("historyTable");
@@ -180,7 +201,9 @@ async function addAlert() {
     if (res.ok) {
         alert(" Alert added successfully");
     } else {
-        alert(" Failed to add alert");
+        const error = await res.text();
+        alert(error);
+        return;
     }
 }
 
@@ -198,6 +221,12 @@ async function checkAlerts() {
         const res = await fetch(
             `${API_BASE}/alert/my/${userId}?startDate=${dates.startDate}&endDate=${dates.endDate}`
         );
+
+        if (!res.ok) {
+            const error = await res.text();
+            alert(error);
+            return;
+        }
 
         const data = await res.json();
 
@@ -241,16 +270,21 @@ function logout() {
 
 
 async function loadCropsNames() {
-    try {
-        const dates = getSelectedDates();
+    const dates = getSelectedDates();
 
-        const cropSelect = document.getElementById("cropName");
-        cropSelect.disabled = true;
-        cropSelect.innerHTML = "<option>Loading...</option>";
+    const cropSelect = document.getElementById("cropName");
+    cropSelect.disabled = true;
+    cropSelect.innerHTML = "<option>Loading...</option>";
 
-        const response = await fetch(
-            `${API_BASE}/crop/cropName?startDate=${dates.startDate}&endDate=${dates.endDate}`
-        );
+    const response = await fetch(
+        `${API_BASE}/crop/cropName?startDate=${dates.startDate}&endDate=${dates.endDate}`
+    );
+
+    if (!response.ok) {
+        const error = await response.text();
+        alert(error);
+        return;
+    } else {
 
         const crops = await response.json();
 
@@ -263,14 +297,12 @@ async function loadCropsNames() {
         cropSelect.innerHTML = options;
         cropSelect.disabled = false;
 
-    } catch (error) {
-        console.error("Error loading crops:", error);
     }
 }
 
 
+
 async function loadMarketNames() {
-    try {
         const dates = getSelectedDates();
 
         const marketSelect = document.getElementById("marketName");
@@ -280,6 +312,12 @@ async function loadMarketNames() {
         const response = await fetch(
             `${API_BASE}/crop/marketName?startDate=${dates.startDate}&endDate=${dates.endDate}`
         );
+
+        if (!response.ok) {
+            const error = await response.text();
+            alert(error);
+            return;
+        } else {
 
         const markets = await response.json();
 
@@ -292,8 +330,6 @@ async function loadMarketNames() {
         marketSelect.innerHTML = options;
         marketSelect.disabled = false;
 
-    } catch (error) {
-        console.error("Error loading markets:", error);
-    }
+    } 
 }
 
